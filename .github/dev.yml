@@ -1,0 +1,13 @@
+name: ola fluxo
+
+on:
+    push:
+          breanches:
+              - main
+
+jobs:
+    say-hello:
+    run-on: ubuntu-latest
+    steps:
+      - name: exibit mensagem de log
+        run: echo "git action funfando"
